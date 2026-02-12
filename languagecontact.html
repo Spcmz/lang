@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>When Languages Meet — Styled (page-by-page)</title>
+<style>
+:root{
+  --bg:#f4f6fb;
+  --card:#ffffff;
+  --accent:#2f855a;
+  --accent-light:#d9f3e4;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --radius:16px;
+  --maxw:1000px;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:"Inter", system-ui, -apple-system, sans-serif;
+  background:linear-gradient(135deg,#e6f4ea,#f3fbf5);
+  color:var(--text);
+}
+
+.container{
+  max-width:var(--maxw);
+  margin:40px auto;
+  padding:20px;
+}
+
+.viewer{
+  position:relative;
+}
+
+.page{
+  display:none;
+  opacity:0;
+  transform:translateY(20px);
+  transition:all .45s cubic-bezier(.2,.8,.2,1);
+}
+
+.page.active{
+  display:block;
+  opacity:1;
+  transform:translateY(0);
+}
+
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:35px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.06);
+  border:1px solid #eef1f7;
+}
+
+h2{
+  font-size:1.6rem;
+  margin-bottom:20px;
+  font-weight:700;
+  color:var(--accent);
+  border-left:6px solid var(--accent);
+  padding-left:14px;
+}
+
+.content{
+  font-family:"Georgia", serif;
+  font-size:1.05rem;
+  line-height:1.8;
+  color:#374151;
+}
+
+.pager{
+  margin-top:25px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:var(--card);
+  padding:15px 20px;
+  border-radius:var(--radius);
+  box-shadow:0 10px 25px rgba(0,0,0,0.05);
+}
+
+.btn{
+  padding:10px 18px;
+  border-radius:10px;
+  border:1px solid var(--accent);
+  background:white;
+  color:var(--accent);
+  font-weight:600;
+  cursor:pointer;
+  transition:all .25s ease;
+}
+
+.btn:hover{
+  background:var(--accent-light);
+}
+
+.btn.primary{
+  background:var(--accent);
+  color:white;
+  border:none;
+}
+
+.btn.primary:hover{
+  background:#2f4ecb;
+}
+
+.progress{
+  font-size:.95rem;
+  color:var(--muted);
+  font-weight:500;
+}
+
+@media (max-width:768px){
+  .card{padding:25px}
+  h2{font-size:1.3rem}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<main class="viewer">
+
+<section id="page0" class="page">
+  <div class="card">
+    <h2>When Languages Meet</h2>
+    <div class="content"><pre>When Languages Meet:
+A Deep Exploration of Language Contact</pre></div>
+  </div>
+</section>
+
+<section id="page1" class="page">
+  <div class="card">
+    <h2>1. Introduction</h2>
+    <div class="content"><pre>Language contact is one of the most important phenomena in sociolinguistics.
+It refers to the situation in which speakers of different languages or language varieties
+interact regularly and influence one another.
+No language develops in isolation. Throughout history, human movement — whether
+through migration, trade, colonization, war, education, or globalization — has brought
+languages into constant interaction.
+Whenever communities meet, their languages meet as well.
+And when languages meet, change becomes inevitable.
+Language contact is therefore not an exception in human history; it is the norm.</pre></div>
+  </div>
+</section>
+
+<section id="page2" class="page">
+  <div class="card">
+    <h2>2. Historical Background of Language Contact</h2>
+    <div class="content"><pre>Language contact has existed for thousands of years.
+• The spread of Latin across Europe created Romance languages such as French, Spanish,
+and Italian.
+• The Arab expansion influenced North Africa and introduced Arabic to many regions.
+• European colonization spread English, French, and Spanish to Africa, Asia, and the
+Americas.
+In Algeria specifically, language contact is visible between:
+• Arabic
+• Tamazight
+• French
+• English
+These interactions have shaped modern Algerian speech in complex ways.</pre></div>
+  </div>
+</section>
+
+<section id="page3" class="page">
+  <div class="card">
+    <h2>3. Mechanisms of Language Contact</h2>
+    <div class="content"><pre>When languages interact, several processes may occur:
+3.1 Borrowing
+Borrowing happens when one language adopts words from another language.
+This usually occurs when a society encounters new objects, technologies, or cultural concepts.
+Examples:
+• “Internet”
+• “Restaurant”
+• “Parking”
+• “Weekend”
+Borrowing can be lexical (words), phonological (sounds), or even grammatical.
+Borrowing enriches vocabulary and allows speakers to adapt to modernization and globalization.
+Code-switching refers to the alternation between two or more languages within the same conversation
+ or even within the same sentence.
+Example:
+“Actually ”.ما فهمتش الدرس
+This phenomenon is extremely common in multilingual societies such as Algeria.
+Reasons for code-switching include:
+• Expressing identity
+• Showing education or prestige
+• Emphasizing emotion
+• Clarifying meaning
+• Filling lexical gaps
+Code-switching reflects social awareness and linguistic flexibility. It demonstrates how speakers 
+skillfully navigate multiple linguistic systems.
+3.3 Code-Mixing
+Code-mixing is similar to code-switching but occurs at a more structural level, where elements of
+different languages are blended together within a sentence structure.
+This often happens unconsciously and becomes part of everyday speech.
+3.4 Pidgins and Creoles
+In some cases, intense language contact creates entirely new languages.
+• A Pidgin is a simplified language that develops for communication between groups
+without a common language.
+• When a pidgin becomes the first language of a community, it becomes a Creole.
+This shows that language contact can produce new linguistic systems, not just influence
+existing ones.</pre></div>
+  </div>
+</section>
+
+<section id="page4" class="page">
+  <div class="card">
+    <h2>4. Positive Effects of Language Contact</h2>
+    <div class="content"><pre>Language contact has many advantages.
+4.1 Linguistic Enrichment
+Languages gain new vocabulary, expressions, and stylistic possibilities.
+This makes communication more dynamic and adaptable.
+4.2 Cultural Exchange
+Language carries culture.
+When languages interact, cultures interact as well.
+This encourages diversity, understanding, and global awareness.
+4.3 Cognitive Benefits
+Multilingual speakers often develop:
+• Greater cognitive flexibility
+• Better problem-solving skills
+• Enhanced metalinguistic awareness
+Language contact encourages bilingualism and multilingualism, which are cognitive advantages.</pre></div>
+  </div>
+</section>
+
+<section id="page5" class="page">
+  <div class="card">
+    <h2>5. Negative Effects of Language Contact</h2>
+    <div class="content"><pre>Despite its benefits, language contact can also produce negative consequences.
+5.1 Language Competition
+Languages are not equal in power.
+Political, economic, and technological forces influence which language becomes dominant.
+For example:
+• French gained prestige in Algeria due to colonization.
+• English is gaining global dominance due to science, technology, and media.
+When one language becomes dominant, others may lose status.
+English is gaining global dominance due to science, technology, and media.
+When one language becomes dominant, others may lose status.
+5.2 Language Shift
+Language shift occurs when a community gradually abandons its native language in favor of another,
+usually more prestigious or economically useful language.
+This process can take generations.
+Parents may stop teaching their children the heritage language.
+Eventually, the language disappears.
+According to linguistic research, thousands of minority languages are at risk of extinction 
+worldwide.Language contact can therefore contribute to cultural and linguistic loss.</pre></div>
+  </div>
+</section>
+
+<section id="page6" class="page">
+  <div class="card">
+    <h2>6. Language and Identity</h2>
+    <div class="content"><pre>Language is deeply connected to identity.
+It reflects:
+• Social background
+• Education level
+• Cultural belonging
+• Religious affiliation
+• Generational differences
+People may feel different when speaking different languages.
+They may express emotions more comfortably in their mother tongue.
+They may use another language in academic or professional contexts.
+Language contact shapes personal and collective identity in complex ways.</pre></div>
+  </div>
+</section>
+
+<section id="page7" class="page">
+  <div class="card">
+    <h2>7. Language Contact in the Digital Age</h2>
+    <div class="content"><pre>The digital era has intensified language contact more than ever before.
+Social media platforms allow instant global communication.
+Expressions spread rapidly across borders.
+Examples include:
+• Arabizi (e.g., “3lach”)
+• Emojis replacing words
+• English internet slang used worldwide
+The digital world is creating hybrid forms of communication.
+We may be witnessing the emergence of a global linguistic culture.</pre></div>
+  </div>
+</section>
+
+<section id="page8" class="page">
+  <div class="card">
+    <h2>8. Is Language Contact a Threat or Natural Evolution?</h2>
+    <div class="content"><pre>Some scholars argue that language contact threatens linguistic purity and cultural identity.
+Others argue that change is natural and inevitable.
+Languages have always evolved through contact.
+Purity in language is largely a myth.
+Language contact reflects social reality.
+As societies change, languages change as well.</pre></div>
+  </div>
+</section>
+
+<section id="page9" class="page">
+  <div class="card">
+    <h2>9. Conclusion</h2>
+    <div class="content"><pre>Language contact is a complex sociolinguistic phenomenon.
+It can:
+• Enrich vocabulary
+• Encourage creativity
+• Promote multilingualism
+But it can also:
+• Create inequality between languages
+• Cause language shift
+• Lead to language loss
+Languages meet.
+They influence each other.
+They compete.
+They transform.
+Language contact is not chaos.
+It is evidence that languages — like societies — are living systems, constantly evolving and
+adapting to human interaction.</pre></div>
+  </div>
+</section>
+
+<div class="pager card">
+  <button id="prevBtn" class="btn">Back</button>
+  <div class="progress" id="progress"></div>
+  <button id="nextBtn" class="btn primary">Next</button>
+</div>
+
+</main>
+</div>
+
+<script>
+(function(){
+  const pages = Array.from(document.querySelectorAll('.page'));
+  const total = pages.length;
+  const progress = document.getElementById('progress');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  let index = 0; // start from first page (section 0)
+
+  function show(i){
+    if(i<0) i=0;
+    if(i>total-1) i=total-1;
+    index=i;
+    pages.forEach(p=>p.classList.remove('active'));
+    pages[index].classList.add('active');
+    progress.textContent = "Section " + index + " / " + (total-1);
+    prevBtn.disabled = index===0;
+    nextBtn.disabled = index===total-1;
+  }
+
+  nextBtn.addEventListener('click',()=>show(index+1));
+  prevBtn.addEventListener('click',()=>show(index-1));
+  window.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight') show(index+1);
+    if(e.key==='ArrowLeft') show(index-1);
+  });
+
+  show(0); // FIRST page appears immediately
+})();
+</script>
+
+</body>
+</html>
